@@ -31,3 +31,15 @@ function noCigar() {
   }
 
 card1.addEventListener('click', noCigar);
+
+//Oooh - so close, but no cigar
+var card2 = document.querySelector('.teal');
+
+function winner() {
+  var heading = document.createElement("h2");
+  var heading_text = document.createTextNode("DING DING DING - We have a winner!");
+    heading.appendChild(heading_text);
+    document.body.appendChild(heading);
+  }
+
+card2.addEventListener('click', winner);
