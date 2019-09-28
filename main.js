@@ -32,7 +32,7 @@ function noCigar() {
 
 card1.addEventListener('click', noCigar);
 
-//Oooh - so close, but no cigar
+//DING DING DING - We have a winner!
 var card2 = document.querySelector('.teal');
 
 function winner() {
@@ -43,3 +43,15 @@ function winner() {
   }
 
 card2.addEventListener('click', winner);
+
+//Oops, butter luck next time
+var card3 = document.querySelector('.green');
+
+function nextTime() {
+  var heading = document.createElement("h2");
+  var heading_text = document.createTextNode("Oops, butter luck next time");
+    heading.appendChild(heading_text);
+    document.body.appendChild(heading);
+  }
+
+card3.addEventListener('click', nextTime);
