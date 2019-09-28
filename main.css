@@ -40,3 +40,11 @@ h2 {
 .green{
   background-color: LawnGreen;
 }
+.btn {
+  color: white;
+  background-color: purple;
+  width:200px;
+  font-size: 22px;
+  margin-top: 15px;
+  display: none;
+}
