@@ -48,3 +48,6 @@ h2 {
   margin-top: 15px;
   display: none;
 }
+.selectedcolor{
+  background-color: orange !important;
+}
