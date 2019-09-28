@@ -55,3 +55,15 @@ function nextTime() {
   }
 
 card3.addEventListener('click', nextTime);
+
+//Start Over button
+var button = document.querySelector('.btn');
+
+function startOver() {
+  for (i = 0; i < cards.length; i++){
+    button.classList.add('show-button');
+  }
+}
+for (i = 0; i < cards.length; i++){
+  cards[i].addEventListener('click', startOver);
+}
